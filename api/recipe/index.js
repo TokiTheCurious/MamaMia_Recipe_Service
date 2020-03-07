@@ -1,5 +1,5 @@
 const Recipe = require('../models/recipe-model')
-const recipeService = require('../controllers/recipe-ctrl')
+const recipeService = require('../service/recipe-service')
 
 module.exports = async (req, res) => {
     switch(req.method.toLowerCase()){

@@ -5,7 +5,5 @@
       "MONGODB_URI": "@my-mongodb-uri"
     },
     "routes": [
-      { "src": "/api/test", "dest": "/api/test" },
-      { "src": "/api/recipe", "dest": "/api/recipe"}
     ]
 }

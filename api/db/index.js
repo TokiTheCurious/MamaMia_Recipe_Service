@@ -1,5 +1,7 @@
 const mongoose = require("mongoose")
-const server = "mongodb://localhost/recipe"
+//const server = "mongodb://localhost/recipe"
+const server = process.env.MONGODB_URI
+console.log(server)
 mongoose
     .connect(server, {useNewUrlParser: true})
     .catch(e =>{
