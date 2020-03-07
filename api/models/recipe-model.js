@@ -11,8 +11,8 @@ const Recipe = new Schema(
         active: { type: String, required: false },
         total: { type: String, required: false },
         image: { type: String, required: false },
-        ingredients: { type: String, required: true },
-        instructions: { type: String, required: true },
+        ingredients: { type: String, required: false },
+        instructions: { type: String, required: false },
         notes: { type: String, required: false }
     },
     { timestamps: true })
